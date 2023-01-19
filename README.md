@@ -7,6 +7,8 @@ This project is a simple web application that demonstrates the use of the Github
 - Pagination functionalities
 - Shows the count of total repositories returned.
 - Throttled API fetch
+  - Due to a restriction in the Github Search API, this application applies a [30 requests per minute](src/useApi.ts) throttling
+- Caching of API results to avoiding reloading results of the same API endpoint/search queries
 
 
 ## Getting Started

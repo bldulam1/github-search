@@ -2,8 +2,8 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { GitHubSearchParams } from "./types";
 
 // For throttling
-const API_CALL_LIMIT = 30;
-const TIME_PERIOD = 60 * 1e3;
+const API_CALL_LIMIT = 30; // 30 requests per minute
+const TIME_PERIOD = 60 * 1e3; // 60 seconds or 1 minute
 let apiCallCounter = 0;
 
 // Set a cache to
