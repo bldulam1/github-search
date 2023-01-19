@@ -30,6 +30,10 @@ npm install
 To run the application, you can use the following command:
 
 ```bash
+npm run dev
+```
+or
+```bash
 vite
 ```
 
