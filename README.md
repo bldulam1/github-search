@@ -21,8 +21,8 @@ npm install -g vite
 Once you have Node.js and Vite.js installed, clone the repository and install the dependencies by running the following commands:
 
 ```bash
-git clone https://github.com/<username>/github-search-api.git
-cd github-search-api
+git clone https://github.com/bldulam1/github-search.git
+cd github-search
 npm install
 ```
 
