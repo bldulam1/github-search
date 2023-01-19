@@ -21,10 +21,10 @@ function App() {
     return setState((s) => ({ ...s, q, page: 1 }));
   };
   const handleSortChange = (sort: string) => {
-    return setState((s) => ({ ...s, sort }));
+    return setState((s) => ({ ...s, sort, page: 1 }));
   };
   const handlePerPageChange = (per_page: number) => {
-    return setState((s) => ({ ...s, per_page }));
+    return setState((s) => ({ ...s, per_page, page: 1 }));
   };
 
   return (
